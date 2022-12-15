@@ -1,0 +1,29 @@
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 0 5px 0 #000;
+}
+
+.logo {
+  padding: 15px;
+  display:inline-flex;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  display: inline-flex;
+  list-style-type: none;
+  padding: 15px;
+  
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+  padding: 7px 15px;
+  font-weight: 300;
+}

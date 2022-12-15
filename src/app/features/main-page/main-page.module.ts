@@ -7,8 +7,8 @@ import { FooterModule } from '../../shared/footer/footer.module';
 import { MainPageComponent } from './main-page.component';
 
 @NgModule({
-  imports: [CommonModule],
-  declarations: [MainPageComponent, NavbarModule, FooterModule],
+  imports: [CommonModule,NavbarModule, FooterModule],
+  declarations: [MainPageComponent ],
   exports: [MainPageComponent],
 })
 export class MainPageModule {}
